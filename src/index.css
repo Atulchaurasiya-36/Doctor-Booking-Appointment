@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.active  hr{
+  @apply block
+}
+
+/* .n{
+  @apply hidden
+} */
+
+::-webkit-scrollbar{
+  @apply hidden
+
+}
+
+@media(max-width:740px){
+  .active p{
+    @apply text-white bg-primary
+  }
+}
